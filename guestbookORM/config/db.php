@@ -16,5 +16,6 @@ $opt = [
 
 $pdo = new PDO($dsn, $user, $pass, $opt);
 
-$sth = $pdo->prepare('');
+ print_r(get_class_methods("PDO"));
+//$sth = $pdo->prepare('');
 //var_dump($pdo);
