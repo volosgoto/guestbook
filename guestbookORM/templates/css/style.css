@@ -16,7 +16,7 @@ article {
     margin-bottom: 10px;
     color: #778899;
     padding: 10px;
-    border: solid 1px #2A4F6F;
+    border-bottom: dotted 1px #2A4F6F;
 }
 
 
@@ -26,6 +26,23 @@ article {
 
 img {
     /*position: static;*/
+}
+
+h1 {
+    font: 150% Georgia, "Times New Roman", Times, serif;
+}
+
+blockquote {
+    font: 70% Georgia, "Times New Roman", Times, serif;
+    text-align: right;
+}
+
+h3 {
+    font: 120% Georgia, "Times New Roman", Times, serif;
+}
+
+ol li {
+    font-size: 90%;
 }
 
 
@@ -47,7 +64,7 @@ img {
 }
 
 #header .logo {
-    width: 2.7em;
+    width: 2.5em;
     float: left;
     color: #2A4F6F;
     background-color: transparent;
@@ -98,22 +115,6 @@ img {
     text-align: justify;
 }
 
-h1 {
-    font: 150% Georgia, "Times New Roman", Times, serif;
-}
-
-blockquote {
-    font: 70% Georgia, "Times New Roman", Times, serif;
-    text-align: right;
-}
-
-h3 {
-    font: 120% Georgia, "Times New Roman", Times, serif;
-}
-
-ol li {
-    font-size: 90%;
-}
 
 #content p,
 form {
