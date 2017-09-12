@@ -14,9 +14,23 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding>
+                <marker date="1505203987490" expanded="true" signature="168:190" ph="SELECT * FRO... articles" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/Db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <marker date="1505197257401" expanded="true" signature="394:418" ph="SELECT * FRO... articles" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -24,19 +38,15 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuestBook.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/GuestBook.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="374">
+              <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+              <folding>
+                <marker date="1505204455602" expanded="true" signature="1070:1180" ph="..." />
+                <marker date="1505204455602" expanded="true" signature="1070:1262" ph="..." />
+                <marker date="1505204455602" expanded="true" signature="1785:1900" ph="..." />
+                <marker date="1505204455602" expanded="true" signature="1875:1900" ph="..." />
+                <marker date="1505204455602" expanded="true" signature="2217:2330" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,6 +61,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="View.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/View.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -59,6 +79,7 @@
         <option value="$PROJECT_DIR$/template/index.php" />
         <option value="$PROJECT_DIR$/classes/GuestBookRecord.php" />
         <option value="$PROJECT_DIR$/classes/GuestBook.php" />
+        <option value="$PROJECT_DIR$/config/Db.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/templates/index.php" />
       </list>
@@ -107,21 +128,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="lesson6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson6" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="guestbookORM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guestbookORM" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="lesson6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson6" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="guestbookORM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guestbookORM" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="lesson6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson6" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="guestbookORM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guestbookORM" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="guestbookORM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guestbookORM" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -129,7 +156,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,20 +187,20 @@
       <updated>1504766521735</updated>
       <workItem from="1504766523186" duration="87000" />
       <workItem from="1504782530413" duration="3432000" />
+      <workItem from="1505195688437" duration="6906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3519000" />
+    <option name="totallyTimeSpent" value="10425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="723" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25757575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="100" y="96" width="1166" height="523" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -183,6 +209,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="100" y="96" width="1166" height="523" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -202,13 +229,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/action.php" />
-    <entry file="file://$PROJECT_DIR$/Guestbook.php" />
-    <entry file="file://$PROJECT_DIR$/GuestBookRecord.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1505203987490" expanded="true" signature="168:190" ph="SELECT * FRO... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/GuestBook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -221,6 +255,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <marker date="1505204455602" expanded="true" signature="1070:1180" ph="..." />
+            <marker date="1505204455602" expanded="true" signature="1070:1262" ph="..." />
+            <marker date="1505204455602" expanded="true" signature="1785:1900" ph="..." />
+            <marker date="1505204455602" expanded="true" signature="1875:1900" ph="..." />
+            <marker date="1505204455602" expanded="true" signature="2217:2330" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/action.php" />
+    <entry file="file://$PROJECT_DIR$/Guestbook.php" />
+    <entry file="file://$PROJECT_DIR$/GuestBookRecord.php" />
     <entry file="file://$PROJECT_DIR$/classes/GuestBook.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -229,11 +280,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1505197257401" expanded="true" signature="394:418" ph="SELECT * FRO... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <marker date="1505203987490" expanded="true" signature="168:190" ph="SELECT * FRO... articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/GuestBookRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <folding>
+            <marker date="1505204455602" expanded="true" signature="1070:1180" ph="..." />
+            <marker date="1505204455602" expanded="true" signature="1070:1262" ph="..." />
+            <marker date="1505204455602" expanded="true" signature="1785:1900" ph="..." />
+            <marker date="1505204455602" expanded="true" signature="1875:1900" ph="..." />
+            <marker date="1505204455602" expanded="true" signature="2217:2330" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

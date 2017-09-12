@@ -2,11 +2,12 @@
 
 $host = 'localhost';
 $db   = 'guestbook';
-$user = 'developer';
+$user = 'guestbook';
 $pass = '1111';
 $charset = 'utf8';
 
 $dsn = "mysql:host=$host; dbname=$db; charset=$charset";
+
 
 $opt = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
@@ -15,7 +16,10 @@ $opt = [
 ];
 
 $pdo = new PDO($dsn, $user, $pass, $opt);
+//$pdo->prepare("SELECT * FROM `articles`");
+//$pdo->exec();
+//$pdo->query()
 
- print_r(get_class_methods("PDO"));
+//print_r(get_class_methods("PDO"));
 //$sth = $pdo->prepare('');
 //var_dump($pdo);

@@ -30,11 +30,16 @@
             nostrum vitae. Laborum eos accusamus a iusto.</p>
         <h3>Все записи</h3>
         <p>
-            <?php foreach ($data as $line) { ?>
+            <?php foreach ( $data as $row):  ?>
             <article>
-                <?php  echo $line->getMessage(); ?>
+                <p>
+                <?php echo $row['title']; ?>
+                </p>
+                <?php
+                echo $row['text'] . "\n";
+                ?>
             </article>
-            <?php } ?>
+            <?php endforeach; ?>
 
             <!---->
             <!--<h2>Добавить запись</h2>-->
@@ -46,6 +51,7 @@
             <!--</form>-->
 
         </p>
+
 
         <!-- Область основного контента -->
     </div>
